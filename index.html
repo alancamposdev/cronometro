@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+  <title>Cronômetro</title>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!--SEO-->
+  <meta name="Author" content="Alan Campos" />
+  <meta name="description" content="cronômetro" />
+  <meta name="keywords" content="DevAlanCampos, treino, desenvolvedor web, html, css, JavaScript" />
+  <!--Styles-->
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+  <div class="container flex-center">
+    <div class="banner flex-center">
+      <ion-icon name="timer-outline"></ion-icon>
+      <h1>Cronômetro</h1>
+    </div>
+    <div class="timer flex-center">
+      <div class="timer-number">00:00:000</div>
+      <div class="timer-content flex-center">
+        <button class="btn-start" onclick="start()">iniciar</button>
+        <button class="btn-pause" onclick="pause()">pausar</button>
+        <button class="btn-stop" onclick="stop()">parar</button>
+
+      </div>
+    </div>
+  </div>
+
+  <!-- Font IonIcons -->
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <!-- Main JS-->
+  <script src="script.js"></script>
+</body>
+</html>
