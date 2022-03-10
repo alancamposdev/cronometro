@@ -5,7 +5,7 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
-  background-color: #202225;
+  background: #2f3136;
   color: #fff;
 }
 .container {
@@ -32,7 +32,7 @@ body {
 .timer {
   flex-direction: column;
 }
-.timer-number {
+.cronometro {
   font-size: 2rem;
   margin: 1rem 0;
 }
@@ -56,9 +56,6 @@ body {
 .btn-start {
   background-color: green;
 }
-.btn-pause {
+.btn-reset {
   background-color: gray;
-}
-.btn-stop {
-  background-color: red;
 }
